@@ -1,0 +1,24 @@
+{
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allows the app to read data as a user.",
+      "adminConsentDisplayName": "Read data",
+      "id": "a9c4e136-b5cc-4d3c-8257-a5e59fca0d14",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the app to read your data.",
+      "userConsentDisplayName": "Read your data",
+      "value": "read"
+    },
+    {
+      "adminConsentDescription": "Allows the app to write data as a user.",
+      "adminConsentDisplayName": "Write data",
+      "id": "ea799a34-8e5e-4966-9b78-98b23e0be446",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the app to write your data.",
+      "userConsentDisplayName": "Write your data",
+      "value": "write"
+    }
+  ]
+}
