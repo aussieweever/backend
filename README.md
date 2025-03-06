@@ -38,3 +38,8 @@ The `get-ws-url.ts` is a function to generate the websocket access url for the c
 
 With the current setup, all the requests need to pass the jwt validation, which is only to validate the appid claim in my case.
 The `create-ticket` has another jwt validation step ot verify the role claim, this is to simulate the RBAC we may need in future. I didn't make it work in this demo, as the basic tier of Entra ID doesn't support custom role setup.
+
+## Known issues
+
+- The connection string for Azure Web Pubsub Service is hardcoded in the Bicep file currently. If we create the Pubsub in Bicep then we can refer the connection string directly.
+- Should also create a hub manually, but coudln't find useful example for it
